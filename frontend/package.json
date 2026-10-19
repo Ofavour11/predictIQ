@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "generate-client": "openapi-typescript ../services/api/openapi.yaml -o src/lib/api/schema.d.ts",
-    "dev": "next dev",
-    "build": "npm run generate-client && next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && npm run generate-client && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
