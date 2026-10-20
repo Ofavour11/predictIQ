@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/1778-1779-1780-1781-infra-hardening",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/1778-1779-1780-1781-infra-hardening": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/1778-1779-1780-1781-infra-hardening",
+    "origin"
+  ]
+}
